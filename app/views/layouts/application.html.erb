@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <div>
+      <h1>Home Page</h1>
+      <% if admin_signed_in? %>
+        <%= link_to "Sign out", destroy_admin_session_path, data: { turbo_method: :delete } %>
+      <% end %>
+    </div>
     <%= yield %>
   </body>
 </html>
