@@ -1,0 +1,2 @@
+class CanvasProgram < ApplicationRecord
+end

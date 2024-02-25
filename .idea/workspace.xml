@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cec9e62-f7aa-4964-8aba-f193a4c98c3a" name="Changes" comment="Code highlighting/home page customization">
+    <list default="true" id="8cec9e62-f7aa-4964-8aba-f193a4c98c3a" name="Changes" comment="Add link to /">
+      <change afterPath="$PROJECT_DIR$/app/views/canvas_programs/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/canvas_programs/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/canvas_programs/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/canvas_programs/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/canvas_programs/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/article.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +49,7 @@
     "Rails.home_page.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "javascript-canvas-experiment",
     "last_opened_file_path": "/Users/joshuamathews/Documents/Personal/rails/home_page",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,6 +61,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/home" />
+      <recent name="$PROJECT_DIR$/app/views" />
+      <recent name="$PROJECT_DIR$/app/views/layouts" />
+    </key>
+  </component>
   <component name="RunManager" selected="Rails.home_page">
     <configuration name="home_page" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="home_page" />
@@ -129,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708578091158</updated>
       <workItem from="1708578092429" duration="2051000" />
-      <workItem from="1708806572899" duration="16663000" />
+      <workItem from="1708806572899" duration="26113000" />
     </task>
     <task id="LOCAL-00001" summary="Articles CRUD/authorization">
       <option name="closed" value="true" />
@@ -147,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708828892931</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add link to /">
+      <option name="closed" value="true" />
+      <created>1708829697109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708829697109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,9 +178,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Articles CRUD/authorization" />
     <MESSAGE value="Code highlighting/home page customization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code highlighting/home page customization" />
+    <MESSAGE value="Add link to /" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add link to /" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/home_page@home_page.rcov" NAME="home_page Coverage Results" MODIFIED="1708828444760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="home_page" />
+    <SUITE FILE_PATH="coverage/home_page@home_page.rcov" NAME="home_page Coverage Results" MODIFIED="1708839302039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="home_page" />
   </component>
 </project>

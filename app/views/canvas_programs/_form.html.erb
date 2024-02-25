@@ -1,0 +1,15 @@
+<%= form_with model: @canvas_program do |form| %>
+  <div>
+    <%= form.label :name %>
+    <br>
+    <%= form.text_field :name %>
+  </div>
+  <div>
+    <%= form.label :body %>
+    <br>
+    <%= form.text_area :body %>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

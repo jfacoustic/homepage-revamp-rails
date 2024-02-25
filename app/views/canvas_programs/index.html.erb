@@ -1,0 +1,7 @@
+<h1>Some Canvas Programs</h1>
+
+<% @canvas_programs.each do |c| %>
+  <%= link_to c.name, canvas_program_path(c) %>
+<% end %>
+
+<%= link_to "new", new_canvas_program_path %>

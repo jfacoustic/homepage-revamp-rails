@@ -11,6 +11,9 @@ Rails.application.routes.draw do
   get "/edit", to: 'home#edit'
   patch '/update', to: 'home#update'
 
+  resources :canvas_programs, path: :canvas
+
+
   resources :articles
 
   devise_scope :admin do
