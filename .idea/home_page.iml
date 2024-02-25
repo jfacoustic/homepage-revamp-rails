@@ -36,6 +36,8 @@
         <option value="responders_controller" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
+        <option value="scss:assets" />
+        <option value="scss:scaffold" />
         <option value="stimulus" />
         <option value="system_test" />
         <option value="task" />
@@ -74,6 +76,8 @@
         <option value="responders_controller" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
+        <option value="scss:assets" />
+        <option value="scss:scaffold" />
         <option value="stimulus" />
         <option value="system_test" />
         <option value="task" />
@@ -360,6 +364,13 @@
           <RakeTaskImpl id="importmap">
             <subtasks>
               <RakeTaskImpl description="Setup Importmap for the app" fullCommand="importmap:install" id="install" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="livereload">
+            <subtasks>
+              <RakeTaskImpl description="Disable Hotwire::Livereload" fullCommand="livereload:disable" id="disable" />
+              <RakeTaskImpl description="Enable Hotwire::Livereload" fullCommand="livereload:enable" id="enable" />
+              <RakeTaskImpl description="Install Hotwire::Livereload into the app" fullCommand="livereload:install" id="install" />
             </subtasks>
           </RakeTaskImpl>
           <RakeTaskImpl id="log">

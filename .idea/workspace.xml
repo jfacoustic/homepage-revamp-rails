@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cec9e62-f7aa-4964-8aba-f193a4c98c3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/admins/sessions/show.html.erb" afterDir="false" />
+    <list default="true" id="8cec9e62-f7aa-4964-8aba-f193a4c98c3a" name="Changes" comment="Articles CRUD/authorization">
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/pygments.css.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/home/_article_preview.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/home/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/home_page.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/home_page.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/article.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
@@ -132,14 +144,27 @@
       <option name="presentableId" value="Default" />
       <updated>1708578091158</updated>
       <workItem from="1708578092429" duration="2051000" />
-      <workItem from="1708806572899" duration="6758000" />
+      <workItem from="1708806572899" duration="16433000" />
     </task>
+    <task id="LOCAL-00001" summary="Articles CRUD/authorization">
+      <option name="closed" value="true" />
+      <created>1708818876764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708818876764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Articles CRUD/authorization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Articles CRUD/authorization" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/home_page@home_page.rcov" NAME="home_page Coverage Results" MODIFIED="1708818240548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="home_page" />
+    <SUITE FILE_PATH="coverage/home_page@home_page.rcov" NAME="home_page Coverage Results" MODIFIED="1708828444760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="home_page" />
   </component>
 </project>

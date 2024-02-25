@@ -8,15 +8,20 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <%= hotwire_livereload_tags if Rails.env.development? %>
   </head>
 
   <body>
-    <div>
-      <h1>Home Page</h1>
+    <div class="navbar">
+      <h1>Josh Felton Mathews</h1>
       <% if admin_signed_in? %>
-        <%= link_to "Sign out", destroy_admin_session_path, data: { turbo_method: :delete } %>
+        <div class="sign_out">
+          <%= link_to "Sign out", destroy_admin_session_path, data: { turbo_method: :delete } %>
+        </div>
       <% end %>
     </div>
-    <%= yield %>
+    <div class="body">
+      <%= yield %>
+    </div>
   </body>
 </html>

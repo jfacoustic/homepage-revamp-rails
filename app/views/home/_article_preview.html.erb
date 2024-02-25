@@ -1,0 +1,4 @@
+<h1><%= article.title %></h1>
+
+<%= sanitize article.body.split("\n").first %>
+<%= link_to "More", article_path(article) %>

@@ -1,0 +1,13 @@
+<h1>Edit Home Page</h1>
+<%= form_with model: @page, url: '/update', method: "patch" do |form| %>
+  <div>
+    <%= form.label :body %><br>
+    <%= form.text_area :body %>
+    <% @page.errors.full_messages_for(:body).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
